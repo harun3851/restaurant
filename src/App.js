@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Menu from './pages/Menu';
 import { BrowserRouter as Router , Route, Routes } from 'react-router-dom';
+import About from './pages/About';
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
 
       <Route path="/" element={<Home/>}/>
       <Route path="/menu" element={<Menu/>}/>
+      <Route path='/about' element={<About/>}/>
     
     </Routes>
 
